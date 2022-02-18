@@ -43,9 +43,21 @@
         android:layout_marginBottom="16dp"
         android:scrollbars="vertical"
         android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/buttonClean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/buttonClean"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Limpiar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        tools:text="Ac feugiat sed lectus vestibulum mattis. Libero justo laoreet sit amet. Ornare massa eget egestas purus viverra accumsan. Ullamcorper a lacus vestibulum sed arcu non odio. Lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis. Est velit egestas dui id ornare arcu. Nunc consequat interdum varius sit amet mattis vulputate enim. Sed lectus vestibulum mattis ullamcorper. Tellus in metus vulputate eu. Auctor urna nunc id cursus metus aliquam eleifend mi in. Augue interdum velit euismod in pellentesque massa. Pellentesque habitant morbi tristique senectus. Integer malesuada nunc vel risus commodo. Ante metus dictum at tempor commodo ullamcorper a. Risus nec feugiat in fermentum posuere urna nec. Bibendum enim facilisis gravida neque convallis.  Nibh cras pulvinar mattis nunc sed blandit. Elit duis tristique sollicitudin nibh. Mi bibendum neque egestas congue. Ultricies leo integer malesuada nunc. Tincidunt arcu non sodales neque sodales ut etiam. Ultricies integer quis auctor elit sed vulputate mi sit. Ultricies mi quis hendrerit dolor magna. At in tellus integer feugiat scelerisque varius morbi. Netus et malesuada fames ac turpis egestas integer eget. Pretium nibh ipsum consequat nisl vel. Erat nam at lectus urna duis convallis convallis tellus id. Aliquam sem fringilla ut morbi. Dui vivamus arcu felis bibendum ut. Nisl nisi scelerisque eu ultrices vitae auctor. Vitae turpis massa sed elementum tempus egestas sed. Morbi non arcu risus quis varius quam quisque id. Malesuada bibendum arcu vitae elementum.  Sit amet est placerat in. Diam vel quam elementum pulvinar etiam non quam lacus. Nulla pellentesque dignissim enim sit amet venenatis. Consequat mauris nunc congue nisi vitae suscipit. Amet consectetur adipiscing elit pellentesque habitant. Sem et tortor consequat id porta nibh venenatis. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam. Viverra vitae congue eu consequat ac felis. Scelerisque purus semper eget duis. Nibh tellus molestie nunc non blandit massa enim nec. Augue interdum velit euismod in pellentesque massa placerat. Viverra mauris in aliquam sem fringilla ut morbi. Aliquet nec ullamcorper sit amet. Quis varius quam quisque id diam vel. Dignissim cras tincidunt lobortis feugiat vivamus. Dui faucibus in ornare quam viverra orci. Curabitur vitae nunc sed velit dignissim sodales ut eu.  Maecenas accumsan lacus vel facilisis volutpat est velit egestas. Lacus vel facilisis volutpat est velit egestas dui id. Mauris pharetra et ultrices neque ornare aenean. Turpis cursus in hac habitasse platea dictumst quisque sagittis. Nulla pellentesque dignissim enim sit. Aliquet bibendum enim facilisis gravida. Nunc non blandit massa enim nec dui nunc. Diam maecenas sed enim ut sem viverra aliquet. Risus nec feugiat in fermentum posuere urna nec tincidunt. Egestas dui id ornare arcu odio ut sem nulla pharetra. Eu facilisis sed odio morbi quis commodo. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Amet cursus sit amet dictum sit amet justo donec. Dignissim convallis aenean et tortor at risus. Nisl vel pretium lectus quam id leo. Sapien pellentesque habitant morbi tristique senectus et netus." />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

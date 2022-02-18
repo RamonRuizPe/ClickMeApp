@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() { //Permite la compatibilidad de versio
 
         val userInput: EditText = findViewById<EditText>(R.id.editText) //<EditText> indica el tipo de lo que estás obteniendo.
         val button: Button = findViewById<Button>(R.id.button)
+        val buttonClean: Button = findViewById<Button>(R.id.buttonClean)
         textView = findViewById<TextView>(R.id.textView)
 
 
@@ -51,6 +52,13 @@ class MainActivity : AppCompatActivity() { //Permite la compatibilidad de versio
                 userInput.setText("") //Como se espera que el usuario lo modifique, se accede por medio de sets y gets
                 //userInput.text.clear() //Función similar a la de setText("").
 
+            }
+        })
+
+        buttonClean?.setOnClickListener(object: View.OnClickListener{
+
+            override fun onClick(p0: View?) {
+                textView?.text = ""
             }
         })
 
